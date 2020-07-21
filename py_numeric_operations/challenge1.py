@@ -1,11 +1,9 @@
 #user prompt
-input("What is the temperature in fahrenheit?")
+faren = input("What is the temperature in fahrenheit?")
 
-if input == int(input):
-
-#formula
-    celsius = (input - 32) * 5/9
-    print(int(celsius))
+if faren == type(faren,int):
+    celsius = (val - 32) * 5/9
+    print(celsius)
 
 else:
     print("Please input a whole number.")
