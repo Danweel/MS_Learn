@@ -1,24 +1,13 @@
-
-
-
 number1 = input("Please enter the first number: ")
-
-num1 = int(num1)
-
-
-
-
-else
-    
-    print("Please enter a number. ")
-
-
 operator = input("Which Operator? (* , / , +, -, %, //) ")
+number2 = input("Please enter a second number: ")
 
 
 
 
+num1 = int(number1)
+num2 = int(number2)
 
-num2 = input("Please enter the second number: ")
+answer = num1, operator, num2
 
-print("the product of ")
+print(answer)
